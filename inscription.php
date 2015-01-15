@@ -147,6 +147,10 @@ if(!empty($_POST))
 						<label for="check_mdp">Confirmez votre mot de passe *</label>
 						<input type="password" id="check_mdp" name="check_mdp" value="<?= escape($check_mdp); ?>">
 					</div>
+
+					<div>
+						<p>(En cliquant sur le bouton Envoyer, vous acceptez les Conditions Générales d'Utilisation du site Home Switch Home.)</p>
+					</div>
 				</div>
 
 				<input type="submit" class="submit_button" value="Envoyer">
