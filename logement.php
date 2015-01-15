@@ -2,17 +2,16 @@
  $q=$bdd->query("SELECT * FROM logements ORDER BY id desc");
         $ligne = $q-> fetch();?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
     <head>
 
-        <meta name="description" content="" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
         <title>Home Switch Home</title>
-        <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
-        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
 
     </head>
 
@@ -26,7 +25,7 @@
                 <?php $sql = $bdd->query("SELECT count(*) as nb from logements");
                     $data = $sql->fetch();
                     $nb = $data['nb'];?>
-            <?php while ($i < $nb) {
+            <?php $i = 0; while ($i < $nb) {
                 ?>
             <div id="three-column" class="container">
                 

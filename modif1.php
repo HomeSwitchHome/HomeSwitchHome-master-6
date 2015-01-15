@@ -4,15 +4,14 @@ $user_name -> execute();
  ?>
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
     <head>
 
-        <meta name="description" content="" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
         <title>Home Switch Home</title>
-        <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
-        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
   <script language="javascript">
 
       function confirme( identifiant )
